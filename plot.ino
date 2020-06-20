@@ -55,8 +55,8 @@ void redrawCursor(){
     int vswr_fraction = vswr_reading % 10;
     itoa(vswr_int, b, 10);
     strcat(b, ".");
-    if (vswr_fraction < 10)
-      strcat(b,"0");
+//    if (vswr_fraction < 10)
+//      strcat(b,"0");
     itoa(vswr_fraction, c, 10);
     strcat(b,c);
     
